@@ -4,6 +4,7 @@ import "./globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
+  display: "swap",
   variable: "--font-outfit",
 });
 
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} antialiased`}
+        className={`${outfit.variable} font-outfit antialiased`}
         suppressHydrationWarning={true}
       >
         {children}
