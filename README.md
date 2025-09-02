@@ -1,13 +1,13 @@
-# QR Code Generator - CodeCraft
+# Scannix - QR Code Generator
 
-A modern, feature-rich QR code generator built with Next.js, React, TypeScript, and Tailwind CSS.
+A modern, feature-rich QR code generator built with Next.js, React, TypeScript, and Tailwind CSS. **Live at [https://scannix.vercel.app/](https://scannix.vercel.app/)**
 
 ## ✨ Features
 
 ### Core Functionality
 
 - **Instant QR Code Generation**: Generate QR codes from URLs instantly
-- **Multiple Export Formats**: Download as PNG, JPEG, or SVG
+- **Multiple Export Formats**: Download as PNG, JPEG, JPG, or SVG
 - **Real-time Preview**: See your QR code as you customize it
 
 ### Customization Options
@@ -30,6 +30,10 @@ A modern, feature-rich QR code generator built with Next.js, React, TypeScript, 
 - **Modern React**: Built with React 19 and Next.js 15
 - **Tailwind CSS**: Beautiful, responsive design system
 - **Error Handling**: Comprehensive error handling and user feedback
+
+## 🌐 Live Demo
+
+**Visit: [https://scannix.vercel.app/](https://scannix.vercel.app/)**
 
 ## 🚀 Getting Started
 
@@ -108,20 +112,26 @@ The application supports extensive customization:
 - **Styling**: Tailwind CSS v4
 - **QR Generation**: qrcode library
 - **Icons**: Heroicons (SVG)
-- **Fonts**: Geist Sans and Geist Mono
+- **Fonts**: Outfit (Google Fonts)
 
 ## 📁 Project Structure
 
 ```
 src/
 ├── app/
-│   ├── layout.tsx          # Root layout with metadata
+│   ├── layout.tsx          # Root layout with metadata and fonts
 │   ├── page.tsx            # Main QR generator component
 │   └── globals.css         # Global styles
 ├── components/
 │   └── Toast.tsx           # Toast notification component
 └── ...
 ```
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel** and automatically updates when you push to the main branch.
+
+**Live URL**: [https://scannix.vercel.app/](https://scannix.vercel.app/)
 
 ## 🎯 Future Enhancements
 
@@ -151,3 +161,4 @@ This project is licensed under the MIT License.
 - [qrcode](https://github.com/soldair/node-qrcode) library for QR code generation
 - [Tailwind CSS](https://tailwindcss.com/) for styling
 - [Next.js](https://nextjs.org/) for the framework
+- [Outfit Font](https://fonts.google.com/specimen/Outfit) for typography
